@@ -1,0 +1,21 @@
+h1{
+  font-weight: 800;
+  /* margin: 20px; */
+  margin-bottom: 50px;
+}
+input{
+  width: 100%;
+}
+.item-conteiner{
+  text-align: left;
+  font-weight: 200;
+}
+.vs-button{
+  min-width: 100px;
+  /* text-align: ; */
+}
+.vs-row{
+  margin: 10px 5px;
+}
+
+/* 2:49 LAST WATCH TIME IN THIS PROJECT*/
