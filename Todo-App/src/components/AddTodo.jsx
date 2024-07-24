@@ -1,4 +1,6 @@
 import {useState} from "react";
+import { BiPlusMedical } from "react-icons/bi";
+
 const AddTodo = ({onNewItem}) => {
 
   const [todoName,settodoName]=useState("")
@@ -27,7 +29,7 @@ const handleAddButton=()=>{
           <input type="date"  className="form-control" onChange={handleDateChange} value={dueDate} required />
         </div>
         <div className="col-2">
-          <button type="button" className="btn btn-outline-warning vs-button" onClick={handleAddButton}>Add Artical</button>
+          <button type="button" className="btn btn-outline-primary vs-button" onClick={handleAddButton}><BiPlusMedical /></button>
         </div>
       </div>
   )
